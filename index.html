@@ -89,6 +89,66 @@
             background-color: #ffffff; /* Warna latar belakang seleksi */
             color: #000000;            /* Warna teks saat terseleksi */
         }
+
+        /* ==================== RESPONSIVE UNTUK MOBILE DEVICE ==================== */
+        @media screen and (max-width: 768px) {
+            .navbar {
+                top: 15px;
+                width: 65%;
+                max-width: none;
+            }
+
+            .container-nav {
+                padding: 12px 20px;
+                border-radius: 40px;
+            }
+
+            .nav-links {
+                gap: 12px;
+            }
+
+            .navbar .container-nav .nav-links li a {
+                font-size: 14px;
+            }
+
+            .time {
+                font-size: 13px;
+            }
+
+            main h1 {
+                font-size: 2.2rem;
+                padding: 0 15px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .navbar {
+                top: 10px;
+                width: 65%;
+            }
+
+            .container-nav {
+                padding: 10px 15px;
+                border-radius: 35px;
+            }
+
+            .nav-links {
+                gap: 8px;
+            }
+
+            .navbar .container-nav .nav-links li a {
+                font-size: 12px;
+            }
+
+            .time {
+                font-size: 11px;
+            }
+
+            main h1 {
+                font-size: 1.8rem;
+                padding: 0 10px;
+            }
+        }
        
     </style>
 </head>
